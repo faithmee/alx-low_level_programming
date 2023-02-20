@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
-  *main - entry point
+  *main - Entry point
   *description: print alphabets except q and o
-  *return: always o
+  *Return: Always o
   */
 
 int main(void)
