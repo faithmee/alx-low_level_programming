@@ -1,3 +1,4 @@
 #!/bin/bash
+putchar('\n');
 gcc $CFILE -o cisfun
 
