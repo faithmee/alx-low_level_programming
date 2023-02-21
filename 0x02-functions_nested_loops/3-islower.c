@@ -1,9 +1,9 @@
 #include <stdio.h>
-/**
- *_islower - checks if a character is lowercase
- *@c: the character
- *Return: 1 if letter is lowercase, 0 if not
- */
+   /**
+    *_isalpha - Checks for alphabets
+    *@c: character to be checked
+    *Return: 1 if character is a letter, 0 character
+    */
 int _islower(int c)
 {
 	if (c >= 'a' && c <= 'z')
@@ -11,4 +11,5 @@ int _islower(int c)
 	else
 		return (0);
 }
+
 
