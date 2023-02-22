@@ -7,7 +7,7 @@
  *Return: The absolute value
  */
 int main(void)
-{
+
 	int _abs(int t)
 {
 	if (t >= 0)
@@ -15,4 +15,4 @@ int main(void)
 	else
 		return (-t);
 }
-}
+
