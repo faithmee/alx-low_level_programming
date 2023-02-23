@@ -1,23 +1,10 @@
-#include <stdio.h>
-#include "main.h"
-
-/**
-* main - prints the largest of 3 integers
-* Return: 0
-*/
-
-int main(void)
-{
-        int a, b, c;
-        int largest;
-
-        a = 972;
-        b = -98;
-        c = 0;
-
-        largest = largest_number(a, b, c);
-
-        printf("%d is the largest number\n", largest);
-
-        return (0);
-}
+  #ifndef MAIN_H
+  2 #define MAIN_H
+  3 #include <stdio.h>
+  4 
+  5 void positive_or_negative(int i);
+  6 int largest_number(int a, int b, int c);
+  7 void print_remaining_days(int month, int day, int year);
+  8 int convert_day(int month, int day);
+  9 
+ 10 #endif /* MAIN_H*/
