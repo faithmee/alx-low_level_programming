@@ -32,8 +32,8 @@ int main(void)
 
 	if (n > 2)
 		max = n;
-	_putchar(n);
-	_putchar('\n');
+
+	printf("%ld\n", max);
 
 	return (0);
 }
