@@ -4,10 +4,11 @@
  *@c: Char to b checked
  *Return: 0 or 1
  */
-int _isdigit(int c);
+int _isdigit(int x);
 {
-	if (c >= '0' && c <= '9')
-		return (1);
-	else
-		return (0);
+	if (x >= '48' && x <= '57')
+	{
+		return (1)
+	}
+	return (0);
 }
