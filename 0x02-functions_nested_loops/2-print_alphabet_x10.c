@@ -1,18 +1,25 @@
-#include <stdio.h>
+#include "main.h"
 /**
- *main - Entry point
- *description: print alphabets except q and o
- *Return: Always 0
+ * print_alphabet_x10 - prints 10 times the alphabet, in lowercase,
+ * followed by a new line
  */
-int main(void)
+void print_alphabet_x10(void)
 {
-	int ten;
-	char la;
+	char ch;
+	int i;
 
-	for (ten = 0; ten <= 9; ten++)
+	i = 0;
+
+	while (i < 10)
 	{
-		for (la = 'a'; la <= 'z'; la++)
-			putchar(la);
-		putchar('\n');
+		ch = 'a';
+		while (ch <= 'z')
+		{
+			_putchar(ch);
+			ch++;
+		}
+		_putchar('\n');
+		i++;
 	}
 }
+
