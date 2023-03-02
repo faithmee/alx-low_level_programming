@@ -1,4 +1,9 @@
 #include <stdio.h>
+/**
+*main - Check code
+*description: Print the number
+*Return: 0
+*/
 int main(void)
 {
 	int n;
